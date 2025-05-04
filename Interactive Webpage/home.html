@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Moo</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <script src="interactive.js"> </script>
+</head>
+
+<body>
+    <main>
+
+
+        <article>
+            <h1>Picture Puzzle</h1>
+
+
+
+            <div class="container">
+
+                <p>
+                    Complete the picture! Click on the images to change.
+                </p>
+                <div class="flexBox" id="box">
+                    <img src="images/cow2.png" id="a" onClick="changeImage(this.id)" role="button">
+                    <img src="images/cow1.png" id="b" onClick="changeImage(this.id)" role="button">
+                    <img src="images/cow4.png" id="c" onClick="changeImage(this.id)" role="button">
+                    <img src="images/cow3.png" id="d" onClick="changeImage(this.id)" role="button">
+                </div>
+
+                
+
+                <button class ="checker" onClick="checkCorrect()">Check</button>
+
+                <br>
+
+
+        </article>
+
+        </div>
+    </main>
+
+
+</body>
+
+</html>
